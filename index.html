@@ -13,15 +13,14 @@
 
 <body ng-app="trip">
   <div class="row">
-      <center><h1>Chile January 2015</h1></center>
+      <center><h1>Chile Itinerary January 2015</h1></center>
   </div>
   <div class="packing row">
     <center><h3>Packing List +</h3></center>
   </div>
   <div class="row packinginfo">
-    <div class="small-12 large-3 columns">
+    <div class="small-6 large-3 columns">
     <h5>Pucon: (6 days)</h5>
-    <h5>Weather 79 to 49 </h5>
       <ul>
         <li>Rain Jacket</li>
         <li>Sweater</li>
@@ -33,28 +32,49 @@
         <li>Sun Glasses</li>
       </ul>
     </div>
-    <div class="small-12 large-3 columns">
+    <div class="small-6 large-3 columns">
       <h5>(more Pucon)</h5>
       <ul>
         <li>Bath towel</li>
         <li>Beach towel</li>
+        <li>Warm socks</li>
+        <li>Flip flops</li>
+        <li>Sweat pants</li>
+        <li>Underwear</li>
+        <li>Head lamp (night walks)</li>
+        <li>Camera</li>
       </ul>
     </div>
-    <div class="small-12 large-3 columns">
-      
+    <div class="small-6 large-3 columns">
+      <h5>Santiago:</h5>
+       <ul>
+        <li>Shirts</li>
+        <li>Jeans</li>
+        <li>Shorts</li>
+        <li>Nice dress clothes</li>
+        <li>Dresses</li>
+        <li>Anything for 90 degree heat</li>
+      </ul>
     </div>
-    <div class="small-12 large-3 columns">
-      
+    <div class="small-6 large-3 columns">
+      <h5>Wedding:</h5>
+       <ul>
+        <li>Suit/Wedding party dress</li>
+        <li>Heals</li>
+        <li>Flats (for dancing)</li>
+        <li>Dress shoes</li>
+        <li>Anything for 90 degree heat</li>
+      </ul>
     </div>
   </div>
   <div class="row">
-    <div class="small-12 large-3 columns arrive">
+    <div class="small-12 large-3 columns arrive tile">
       <div class="text">
         <h5>We Depart!</h5>
         <h3>11th </h3>
       </div>
     </div>
-    <div class="pucon small-12 large-9 columns">
+    <div class="pucon small-12 large-9 columns tile">
       <div class="text">
         <h5>Pucon </h5>
         <h3>12th to 18th</h3>
@@ -64,14 +84,17 @@
     <div class="arriveinfo">
         <h4>Flights:</h4> 
         <div class="small-12 large-4 columns">
-          <h5>SFO 2:05PM - ATL 9:38PM (4hr 25min)</h5>
+          <h5>DELTA 1680</h5>
+          <h5>SFO 2:05pm - ATL 9:38pm (4hr 25min)</h5>
           <img src="./img/sfo_to_atl.png">
         </div>
         <div class="small-12 large-4 columns">
-          <h5>ATL 10:27PM - SCL 9:55AM (9hr 25min)</h5>
+          <h5>DELTA 147</h5>
+          <h5>ATL 10:27pm - SCL 9:55am (9hr 25min)</h5>
           <img src="./img/atl_to_scl.png">
         </div>
         <div class="small-12 large-4 columns"> 
+          <h5>TBD (we have tickets)</h5>
           <h5>SCL - TMCO (1hr 20min)</h5>
           <img src="./img/scl_to_temco.png">
         </div>
@@ -79,28 +102,22 @@
   </div>
   <div class="row">
     <div class="puconinfo">
-      <h4>Weather</h4>
+      <h4>Pucon</h4>
+      <h5>Weather</h5>
       <img src="./img/pucon_weather.png">
-      <h4>Be ready to:</h4>
-      <ul>
-          <li>
-            Hike then sled volcano
-          </li>
-          <li>
-            Bike ride to the falls
-          </li>
-          <li>
-            Kayaking On the lake
-          </li>
-          <li>
-            Check out national parks
-          </li> 
+      <h5>Be ready to:</h5>
+        <ul>
+          <a href="http://www.tripadvisor.com/Attraction_Review-g294297-d315383-Reviews-Mount_Villarrica-Pucon_Araucania_Region.html"><li> Hike then sled volcano </li></a>
+          <a href="http://www.tripadvisor.com/Attraction_Review-g294297-d2695264-Reviews-Ojos_del_Caburga-Pucon_Araucania_Region.html"><li> Bike ride to the falls</li></a>
+          <a href="http://www.tripadvisor.com/Attraction_Review-g294297-d6716245-Reviews-Lago_Villarrica-Pucon_Araucania_Region.html"><li> Kayaking On the lake</li></a>
+          <a href="http://www.tripadvisor.com/Attraction_Review-g294297-d2023097-Reviews-Huerquehue_National_Park-Pucon_Araucania_Region.html"><li> Check out national parks</li></a>
+          <li> Epic star gazing</li>  
         </ul>   
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="small-12 large-6 columns santiago">
+    <div class="small-12 large-6 columns santiago tile">
       <h5>Santiago</h5>
       <div class="large-6 columns">
         <h3>18th</h3>
@@ -109,46 +126,88 @@
         <h3>19th</h3>
       </div>
     </div>
-    <div class="small-12 large-6 columns vina">
-      <h5 class="text">Vina del Mar</h5>
-      <div class="large-6 columns">
-        <h3>20th</h3>
+    <div class="small-12 large-6 columns vina tile">
+      <h5 class="darktext">Vina del Mar</h5>
+      <div class="large-4 columns">
+        <h3 class="darktext">20th</h3>
       </div>
-      <div class="large-6 columns">
-        <h3>22th</h3>
+      <div class="large-4 columns">
+        <h3 class="darktext">21st</h3>
+      </div>
+      <div class="large-4 columns">
+        <h3 class="darktext">22nd</h3>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="santiagoinfo">
-      santiago info
+      <h4>Santiago</h4>
+      <div class="small-12 large-4 columns">
+        <h4>Weather (similar)</h4>
+        <img src="./img/santiago_weather.png">
+      </div>
+      <div class="small-12 large-4 columns">
+      <h4>Be ready to:</h4>
+        <ul>
+          <li> Walk/Metro around Santiago</li>
+          <li> See Delaveau family</li>
+          <li> Sweat a lot!</li>
+        </ul> 
+      </div>
+      <div class="small-12 large-4 columns">
+      <h4>People you may see:</h4>
+      <ul>
+        <li>Abuelita Rosita</li>
+        <li>Abuelito Gaston</li>
+        <li>Tia Veronica</li>
+        <li>Gastonon Enrique</li>
+        <li>Tia Patty</li>
+        <li>Prima Camila</li>
+        <li>Primo Ignacio</li>
+      </ul>
+      </div>
     </div>
   </div>
   <div class="row">
     <div class="vinainfo">
-      vina
+      <h4>Vina del Mar</h4>
+      <div class="small-12 large-4 columns">
+        <h4>Weather (similar)</h4>
+        <img src="./img/vina_weather.png">
+      </div>
+      <div class="small-12 large-4 columns">
+      <h4>Be ready to:</h4>
+        <ul>
+          <li> Walk/Metro around Vina del Mar</li>
+          <li> Check out the beach (no swimming)</li>
+          <li> Eat sea food</li>
+        </ul> 
+      </div>
+      <div class="small-12 large-4 columns">
+      <h4>People you may see:</h4>
+      </div>
     </div>
   </div>
   <div class="row">
-    <div class="small-12 large-3 columns pineda">
+    <div class="small-12 large-3 columns pineda tile">
       <div class="text">
         <h5>Sanitago</h5>
         <h3>23rd </h3>
       </div>
     </div>
-    <div class="small-12 large-3 columns wedding">
+    <div class="small-12 large-3 columns wedding tile">
       <div class="text">
         <h5>Wedding</h5>
         <h3>24th</h3>
       </div>
     </div>
-    <div class="small-12 large-3 columns">
+    <div class="small-12 large-3 columns santiago-2 tile">
       <div class="text">
         <h5>Sanitago</h5>
         <h3>25th</h3> 
       </div>
     </div>
-    <div class="small-12 large-3 columns depart">
+    <div class="small-12 large-3 columns depart tile">
       <div class="text">
         <h5>We Leave</h5>
         <h3>26th</h3>
@@ -157,18 +216,55 @@
   </div>
   <div class="row">
     <div class="pinedainfo">
-      Pineda
+      <h4>Sanitago - 23rd</h4>
+      <h5>Be Ready to:</h5>
+      <ul>
+        <li>Have dinner with the Pinedas</li>
+      </ul>
     </div>
   </div>
   <div class="row">
     <div class="weddinginfo">
-      Wedding
+      <h4>Wedding Day</h4>
+      <h5>Be Ready to:</h5>
+      <ul>
+        <li>Go to a ceremony in a church</li>
+        <li>See a bunch of Pineda family</li>
+        <li>Dance until 5am (thats how chileans do)</li>
+      </ul>
+    </div>
+  </div>
+    <div class="row">
+    <div class="santiago2info">
+      <h4>Santiago- 25th</h4>
+      <h5>Be Ready to:</h5>
+      <ul>
+        <li>Sleep</li>
+        <li>Recover</li>
+        <li>Sight Seeing</li>
+      </ul>
     </div>
   </div>
   <div class="row">
     <div class="departinfo">
-      Leave
+      <h4>Flights:</h4> 
+        <div class="small-12 large-4 columns">
+          <h5>DELTA 146</h5>
+          <h5>SCL 9:50pm - ATL 5:36am (9hr 25min)</h5>
+          <img src="./img/atl_to_scl.png">
+        </div>
+        <div class="small-12 large-4 columns">
+          <h5>DELTA 2049</h5>
+          <h5>ATL 8:25am - SFO 10:43am (4hr 25min)</h5>
+          <img src="./img/sfo_to_atl.png">
+        </div>
+        <div class="small-12 large-4 columns"> 
+         
+        </div>
     </div>
+  </div>
+  <div class="tile">
+    
   </div>
 </body>
 

@@ -1,10 +1,10 @@
-.columns {
-border-top: 1px solid #202220;
-border-right: 1px solid #202220;
-border-bottom: 1px solid #202220;
-border-left: 1px solid #202220;
-height: 300px;
-} 
+ .tile {
+  height: 300px;
+  border-top: 1px solid #202220;
+  border-right: 1px solid #202220;
+  border-bottom: 1px solid #202220;
+  border-left: 1px solid #202220;
+}
 
 body{
   color:white;
@@ -23,48 +23,65 @@ h4 {
   color:white;
 }
 
+.darktext {
+  color:black;
+}
+
 .center {
   margin: 0 auto;
 }
 
 .packing {
-  background-color: #75756E;
+  background-color: #6E9C6D;
+  cursor: pointer;
 }
 
 .arrive {
   background-image: url("../img/depart.jpg");
   background-size: cover;
+  cursor: pointer;
 }
 
 .pucon {
   background-image: url("http://www.amazingplacesonearth.com/wp-content/uploads/2012/09/Jorge-Barrios-Villarrica_Chile.jpg  ");
-  background-size: cover;   
+  background-size: cover;  
+  cursor: pointer; 
+}
+
+.santiago-2 {
+  background-image: url("../img/santiago.jpg");
+  background-size: cover;
 }
 
 .santiago {
   background-image: url("https://scontent-b-sjc.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/1930174_653103024173_3822208_n.jpg?oh=4630ed4b9d5b263c3cceca2150d2cd62&oe=55279295");
   background-size: cover;
+  cursor: pointer;
 }
 
 .pineda {
   background-image: url("../img/pineda.jpg");
   background-size: contain;
   background-repeat: no-repeat; 
+  cursor: pointer;
 }
 
 .wedding {
   background-image: url("https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10408141_10152813378560482_5456667800838999221_n.jpg?oh=6a9e2f7ca918b502ed981cc7c96d06eb&oe=5527E0E5&__gda__=1430354163_52590057f1a406f1dcb2250e9bed0dc5");
   background-size: cover;
+  cursor: pointer;
 }
 
 .vina {
   background-image: url("http://wikitravel.org/upload/en/thumb/0/08/Cabrillo_Trip_2007_518.jpg/500px-Cabrillo_Trip_2007_518.jpg");
   background-size: cover;
+  cursor: pointer;
 }
 
 .depart {
   background-image: url("../img/depart.jpg");
   background-size: cover;
+  cursor: pointer;
 }
 
 .text {
@@ -82,6 +99,10 @@ h4 {
 }
 
 .santiagoinfo {
+  display: none;
+}
+
+.santiago2info {
   display: none;
 }
 
