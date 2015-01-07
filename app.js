@@ -8,6 +8,9 @@ $( document ).ready(function() {
   $(".santiago").on("click", function() {     
       $('.santiagoinfo').slideToggle("slow");        
   });
+  $(".santiago-2").on("click", function() {     
+      $('.santiago2info').slideToggle("slow");        
+  });
 
   $(".pineda").on("click", function() {     
       $('.pinedainfo').slideToggle("slow");        

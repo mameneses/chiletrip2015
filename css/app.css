@@ -51,6 +51,7 @@ h4 {
 .santiago-2 {
   background-image: url("../img/santiago.jpg");
   background-size: cover;
+  cursor: pointer;
 }
 
 .santiago {
