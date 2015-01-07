@@ -23,6 +23,10 @@ h4 {
   color:white;
 }
 
+.packing {
+  background-color: #75756E;
+}
+
 .arrive {
   background-image: url("../img/depart.jpg");
   background-size: cover;
@@ -64,3 +68,41 @@ h4 {
   color: white;
   max-width:249px;
 }
+
+.puconinfo {
+  display: none;
+}
+
+.arriveinfo {
+  display: none;
+}
+
+.santiagoinfo {
+  display: none;
+}
+
+.pinedainfo {
+  display: none;
+}
+
+.weddinginfo {
+  display: none;
+}
+
+.vinainfo {
+  display: none;
+}
+
+.departinfo {
+  display: none;
+}
+
+.packinginfo {
+  display: none;
+}
+
+
+
+
+
+
