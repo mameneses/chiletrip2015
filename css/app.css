@@ -22,6 +22,9 @@ h5{
 h4 {
   color:white;
 }
+h6 {
+  color: white;
+}
 
 .darktext {
   color:black;
@@ -88,7 +91,7 @@ h4 {
 .text {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  max-width:249px;
+  max-width:100%;
 }
 
 .puconinfo {
@@ -125,6 +128,10 @@ h4 {
 
 .packinginfo {
   display: none;
+}
+
+.footer {
+  height: 50px;
 }
 
 
